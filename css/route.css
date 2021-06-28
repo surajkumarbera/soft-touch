@@ -1,0 +1,30 @@
+#body {
+  background-color: rgba(100, 148, 237, 0.212);
+  width: 100%;
+  height: 700px;
+}
+
+#routes {
+  width: 210px;
+  height: 500px;
+  padding: 100px 0;
+  background-color: rgba(0, 0, 0, 0.425);
+  float: right;
+}
+
+#routes a {
+  padding: 30px 15px;
+  display: block;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.753);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: larger;
+  font-weight: 500;
+  font-style: oblique;
+}
+
+#routes a:hover {
+  color: white;
+  font-weight: 600;
+  font-style: italic;
+}

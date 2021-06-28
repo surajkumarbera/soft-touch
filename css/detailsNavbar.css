@@ -1,0 +1,26 @@
+#details-navbar {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+#details-navbar div {
+  margin: 5px 10px;
+  padding: 10px;
+  background-color: rgb(227, 242, 255);
+}
+
+#details-navbar div a {
+  text-decoration: none;
+  color: rgba(53, 95, 172, 0.822);
+  font-weight: 500;
+}
+
+#details-navbar div a:hover {
+  color: rgba(49, 105, 209, 0.822);
+  font-weight: 700;
+}
+
+.active {
+  border: 2px solid rgba(71, 122, 216, 0.63);
+}
